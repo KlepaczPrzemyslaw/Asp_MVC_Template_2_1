@@ -1,0 +1,34 @@
+--- NEW ---> 2018-09-15 21:52:28 
+   at Microsoft.AspNetCore.Identity.UserManager`1.IsEmailConfirmedAsync(TUser user)
+   at Template_2_1.Services.Services.EmailConfirmationCheckerService.IsEmailConfirmed(String email) in C:\Users\PK-INQ\Desktop\V3\Template\Template_2_1\Template_2_1\Services\Services\EmailConfirmationCheckerService.cs:line 28 
+   System.ArgumentNullException ---> Value cannot be null.
+Parameter name: user!!
+
+--- NEW ---> 2018-09-15 21:54:22 
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Template_2_1.Services.Services.EmailConfirmationCheckerService.IsEmailConfirmed(String email) in C:\Users\PK-INQ\Desktop\V3\Template\Template_2_1\Template_2_1\Services\Services\EmailConfirmationCheckerService.cs:line 28 
+   System.InvalidOperationException ---> Sequence contains more than one element!!
+
+--- NEW ---> 2018-09-15 21:54:44 
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Template_2_1.Services.Services.EmailConfirmationCheckerService.IsEmailConfirmed(String email) in C:\Users\PK-INQ\Desktop\V3\Template\Template_2_1\Template_2_1\Services\Services\EmailConfirmationCheckerService.cs:line 28 
+   System.InvalidOperationException ---> Sequence contains more than one element!!
+
