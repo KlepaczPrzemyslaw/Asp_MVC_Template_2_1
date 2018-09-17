@@ -1,5 +1,16 @@
 # ASP.NET Core 2.1 MVC - Template
 
+## To Run
+(New project name: NewProject)
+1) Download this repository.
+2) Change name "Template_2_1.sln" to "NewProject.sln"
+3) Change folder name "Template_2_1" to "NewProject"
+4) Open Template_2_1.sln and change all "Template_2_1" to "NewProject"
+5) Find and rename "Template_2_1.csproj" to "NewProject.csproj"
+6) Run NewProject.sln in Visual Studio
+7) In Startup.cs rename namespace with (Ctrl + R + R)
+8) Right-click on NewProject (Project) -> properties -> section debug -> and check Enable SSL 
+
 ## General 
 - General fixes in generated files.
 - Fixed action for email address change in profile section:
