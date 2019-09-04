@@ -1,4 +1,4 @@
-# ASP.NET Core 2.1 MVC - Template
+# ASP.NET Core 2.1 MVC [C# - MVC (.NET Core 2.1)]
 
 ## To Run
 (New project name: NewProject)
